@@ -1,0 +1,212 @@
+body {
+    background-image: url("back6.jpg");
+    background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    font-family: 'Indie Flower';
+    font-size: 26px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+
+p {
+    font-size: 30px; 
+    color: rgb(255, 145, 0);
+  }
+
+#pag {
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#perso{
+    float:right;
+}
+
+header#h1{
+    width: 100%;
+    height:90px;
+}
+
+header {
+    margin-bottom: 10px
+  }
+
+h2{
+    visibility: hidden;
+}
+h3{
+  font-size: 30px;
+}
+
+#poz_m{
+  visibility: hidden;
+}
+
+#span_a{
+  visibility: hidden;
+}
+
+#poz1 {
+    width: 250px; 
+    margin: auto;
+    padding: 0px;
+  }
+
+section, footer {clear:both;}
+
+section {
+
+    margin: 10px 10px 10px 0px;
+    width: 1000px; 
+    margin: auto;
+}
+#pc{
+    color:rgb(0 0 0);
+    font-family: 'Indie Flower';
+    font-size: 26px;
+    font-weight: bolder;
+    color: black;
+}
+
+#cap{
+    border-top:3px rgb(119 8 8) solid;
+    border-style: dashed none none none;
+    color:  rgb(255, 145, 0);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#fundal{
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    padding: 10px;
+    background-color: #00000052;
+    
+}
+
+#pers{
+  float: left;
+  width: 100px;
+}
+#mob{
+    display: none;
+}
+
+td{
+  display: block;
+}
+
+/* meniuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh*/
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111111de;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: rgb(255, 145, 0);
+display: block;
+transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top:0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+/* meniuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh*/
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+#pag {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#poz{
+  display: none;
+}
+
+#poz_m{
+  visibility: visible;
+  width: 210px; 
+  margin: auto;
+}
+
+#perso{
+  width: 120px;
+  float:  right;
+}
+
+#span_pc{
+  display: none;
+}
+
+#span_a{
+
+  visibility: visible;
+}
+h2{
+  font-size: 40px;
+  width: 170px; 
+  margin: auto;
+  padding: 0px;
+  color: rgb(139, 80, 3);
+  visibility: visible;
+}
+
+section {
+  width: 250px; 
+  margin: auto;
+  padding: 60px;
+}
+#pc{
+    display: none;
+}
+#mob{
+    display: block;
+
+}
+
+#fundal{
+    -moz-box-shadow:    inset 0 0 10px #00000000;
+    -webkit-box-shadow: inset 0 0 10px #00000000;
+    box-shadow:         inset 0 0 10px #00000000;
+    padding: 10px;
+    background-color: #00000000;
+    
+}
+
+}

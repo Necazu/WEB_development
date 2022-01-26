@@ -1,0 +1,176 @@
+  body {
+      background-image: url("back3.jpg");
+      background-size: cover;
+      background-position: 100% 0%;
+      background-repeat: no-repeat;
+      font-family: 'Indie Flower';
+      font-size: 22px;
+      color: white;
+  }
+
+  p {
+      font-size: 30px; 
+      color: rgb(255, 145, 0);
+    }
+
+  #pag {
+      width: 90%;
+      margin: 0px auto;
+      padding: 0px;
+  }
+
+  header#h1{
+      width: 100%;
+      height:90px;
+  }
+
+  header {
+      margin-bottom: 10px
+    }
+
+  h2{
+      visibility: hidden;
+  }
+  h3{
+    font-size: 30px;
+    color: white;
+  }
+
+  #poz_m{
+    visibility: hidden;
+  }
+
+  #span_a{
+    visibility: hidden;
+  }
+
+  #poz1 {
+      width: 250px; 
+      margin: auto;
+      padding: 0px;
+    }
+
+  section, footer {clear:both;}
+
+  section {
+
+      margin: 10px 10px 10px 0px;
+      width: 700px; 
+      margin: auto;
+  }
+
+  td{
+    display: block;
+  }
+
+
+/* meniuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111111de;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+a{text-decoration: none;}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(255, 145, 0);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top:0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* meniuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuh*/
+
+  #main_two{
+   
+      display: block;
+  }
+
+  #glitch{
+      float: right;
+  }
+
+  footer {
+      text-align: center;
+      background-color: black;
+  }
+
+
+  #mana,#bradut,#ice,#inima,#intrebare,#lama,#ochelari,#stan,#stea,#stea_c{
+    visibility: hidden;
+    width: 0px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+ 
+  #pag {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  #poz{
+    display: none;
+  }
+  
+  #poz_m{
+    visibility: visible;
+    width: 210px; 
+    margin: auto;
+  }
+
+  #main_two{
+      visibility: hidden;
+      display: none;
+  }
+
+  #span_pc{
+    display: none;
+  }
+  
+  #span_a{
+
+    visibility: visible;
+  }
+  h2{
+    font-size: 40px;
+    width: 170px; 
+    margin: auto;
+    padding: 0px;
+    color: rgb(139, 80, 3);
+    visibility: visible;
+}
+
+section {
+    width: 210px; 
+    margin: auto;
+    padding: 60px;
+  }
+
+  #mana,#bradut,#ice,#inima,#intrebare,#lama,#ochelari,#stan,#stea,#stea_c{
+    visibility: visible;
+    width: 100px;
+  }
+
+}
